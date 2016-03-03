@@ -96,6 +96,10 @@ input:focus {
 #newsInput {
   color: black; }
 
+.newsSearch {
+  width: 85%;
+  margin: 5px auto; }
+
 .bandInput {
   text-align: center; }
   .bandInput input {
