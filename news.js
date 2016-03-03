@@ -63,7 +63,7 @@ var news = {
 
   addNewsToDom: function(newsArr) {
     var tmplNews = _.template(newsTemplates.news);
-    $('.news').prepend('');
+    $('.news').html('');
     _.each(newsArr, function(element){
       console.log(element);
       $('.news').append(tmplNews(element));
