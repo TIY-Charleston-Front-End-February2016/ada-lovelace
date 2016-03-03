@@ -143,6 +143,15 @@ header{
     outline: none;
 }
 }
+
+.events{
+ border: 1px solid white;
+ height: 250px;
+ overflow-y: scroll;
+ width: 80%;
+ margin-left: 10%;
+}
+
 .topRow {
   width: 85%;
   margin: 0 auto;
